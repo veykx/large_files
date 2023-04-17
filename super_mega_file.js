@@ -1,4 +1,4 @@
-const kMeans = (data, k = 1) => {
+const kMeans = (data, k = 2) => {
   const centroids = data.slice(0, k);
   const distances = Array.from({ length: data.length }, () =>
     Array.from({ length: k }, () => 0)
